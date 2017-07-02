@@ -1,0 +1,162 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.googlemanpower.activity.Professsionals">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Enigneers"
+    android:textStyle="bold"
+    android:textSize="24sp"
+    android:layout_marginTop="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp"
+    android:id="@+id/eng"/>
+    <ImageView
+        android:layout_below="@+id/eng"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/engineers"
+        android:id="@+id/img_eng"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_eng"
+        android:text="1.Civil Engineers"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:id="@+id/cv"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cv"
+
+        android:text="2.Electrical Engineers"
+        android:id="@+id/ee"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ee"
+        android:text="3.Mechanical Engineers"
+        android:id="@+id/me"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/me"
+        android:text="4.Arcitects/Planners"
+        android:id="@+id/ap"
+        android:textColor="#000"
+        android:textSize="16sp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ap"
+        android:text="5.Medicine/Hospitals"
+        android:id="@+id/mh"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+
+    <TextView
+        android:layout_below="@+id/mh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctors"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:id="@+id/dr"/>
+    <ImageView
+        android:layout_below="@+id/dr"
+        android:layout_width="match_parent"
+        android:layout_height="130dp"
+        android:src="@drawable/doctors"
+        android:id="@+id/img_dr"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"/>
+
+    <TextView
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_dr"
+        android:text="1.Specialists"
+        android:textSize="16sp"
+        android:id="@+id/sp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sp"
+        android:text="2.General Physician"
+        android:id="@+id/gp"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gp"
+        android:text="3.Dental Surgeons"
+        android:id="@+id/ds"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ds"
+        android:text="4.Management and Accountancy"
+        android:id="@+id/ma"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ma"
+        android:text="5.Chartered / Cost Accountants"
+        android:id="@+id/cc"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cc"
+        android:text="6.General Manager/ Finance Manager"
+        android:id="@+id/gf"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gf"
+        android:text="7.HR Manager"
+        android:id="@+id/hm"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_marginBottom="5dp"/>
+
+
+
+</RelativeLayout>
+    </ScrollView>

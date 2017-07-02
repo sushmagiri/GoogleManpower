@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.googlemanpower.activity.Documentation">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Required Documnets"
+    android:textSize="24sp"
+    android:textStyle="bold"
+    android:id="@+id/rd"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/wb_rd"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/rd"></WebView>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/dl"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/wb_rd">
+
+
+    </WebView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Sample"
+        android:textSize="16sp"
+        android:id="@+id/vs1"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/dl"
+        android:layout_marginLeft="100sp"
+        android:background="@color/colorPrimary"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/pa"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/vs1">
+
+
+    </WebView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Sample"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:id="@+id/vs2"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/pa"
+        android:layout_marginLeft="100sp"
+        android:background="@color/colorPrimary"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ec"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/vs2">
+
+
+    </WebView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Sample"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:id="@+id/vs3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/ec"
+        android:layout_marginLeft="100sp"
+        android:background="@color/colorPrimary"/>
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/aa"
+        android:layout_marginTop="5dp"
+        android:layout_below="@id/vs3">
+
+
+    </WebView>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Sample"
+        android:textSize="16sp"
+        android:textColor="#fff"
+        android:id="@+id/vs4"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/aa"
+        android:layout_marginLeft="100sp"
+        android:background="@color/colorPrimary"/>
+
+
+</RelativeLayout>
+</ScrollView>

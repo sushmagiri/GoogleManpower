@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    package="com.example.user.googlemanpower">
+
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.SplashScreen"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.AboutUs"
+            android:label="About Us" />
+        <activity
+            android:name=".activity.Message"
+            android:label="Messages" />
+        <activity android:name=".activity.Details" />
+        <activity
+            android:name=".activity.AboutUsDetails"
+            android:label="Vision,Mission and Objectives" />
+        <activity android:name=".activity.Services"
+            android:label="Services"/>
+        <activity
+            android:name=".activity.Gallery"
+            android:label="Gallery"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name=".activity.GalleryDetails" />
+        <activity android:name=".activity.ServicesDetail" />
+        <activity android:name=".activity.ServicesTraining" />
+        <activity android:name=".activity.ServicesTravel" />
+        <activity android:name=".activity.FullImageActivity" />
+        <activity
+            android:name=".activity.AboutUsManagementTeam"
+            android:label="Management Team" />
+        <activity
+            android:name=".activity.AboutNepal"
+            android:label="About Nepal"
+            android:theme="@style/myDialog"
+            />
+        <activity android:name=".activity.OrganizationChart" />
+        <activity android:name=".activity.ContactUs" />
+        <activity
+            android:name=".activity.RecentJobs"
+            android:label="Job Categories" />
+        <activity
+            android:name=".activity.Procedure"
+            android:label="Procedure" />
+        <activity android:name=".activity.Documentation" />
+        <activity android:name=".activity.OverSeasRecruitment" />
+        <activity android:name=".activity.DeploymentProcedure" />
+        <activity android:name=".activity.SaudiVisaProcessing" />
+        <activity android:name=".activity.EmployeeResponsibility" />
+        <activity android:name=".activity.MalaysiaVisaProcessing" />
+        <activity android:name=".activity.GalleryAnimation" />
+        <activity android:name=".activity.RecruitmentProcess" />
+    </application>
+
+</manifest>

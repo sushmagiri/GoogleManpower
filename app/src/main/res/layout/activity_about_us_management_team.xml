@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.user.googlemanpower.activity.AboutUsManagementTeam">
+    <in.srain.cube.views.GridViewWithHeaderAndFooter
+        android:id="@+id/grid_view"
+        android:layout_below="@+id/appbar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="none"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:focusable="false"
+        android:numColumns="3"
+        android:scrollbarStyle="outsideOverlay"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv"
+        android:text="text"
+        android:layout_below="@+id/grid_view"/>
+
+</RelativeLayout>

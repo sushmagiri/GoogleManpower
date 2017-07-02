@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="image_ids">
+    <item>@drawable/md</item>
+    <item>@drawable/od</item>
+    <item>@drawable/fd</item>
+    <item>@drawable/chairman</item>
+
+    </string-array>
+
+</resources>

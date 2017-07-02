@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context="com.example.user.googlemanpower.activity.MalaysiaVisaProcessing">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Malaysia's Visa Processing"
+        android:textStyle="bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="20sp"
+        android:paddingTop="5dp"
+        android:id="@+id/ep"/>
+    <TextView
+        android:layout_below="@+id/ep"
+        android:layout_marginTop="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+        android:text="The Visa Processing for the Kingdom of Saudi Arabia is different from other Middle East countries. The stepwise process for the recruitment in Saudi Arabia is given below:"
+        android:textSize="16sp"
+        android:id="@+id/svp_data"/>
+
+    <ListView
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/svp_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listView"
+
+        />
+</RelativeLayout>

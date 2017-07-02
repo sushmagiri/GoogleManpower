@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/logo"
+        android:title=""
+
+        />
+    <item android:id="@+id/logo1"
+        android:title=""
+
+        />
+
+    <item android:id="@+id/Home1"
+        android:title="Home"
+        android:icon="@drawable/home"
+
+        />
+
+    <item android:id="@+id/AboutUs"
+        android:title="About Us"
+        android:icon="@drawable/aboutus"
+        ></item>
+    <item android:id="@+id/messages"
+        android:title="Messages"
+        android:icon="@drawable/message"
+        ></item>
+
+    <item android:id="@+id/Services"
+        android:title="Services"
+        android:icon="@drawable/services"
+
+        />
+
+
+    <item android:id="@+id/Proceduer"
+        android:title="Procedure"
+        android:icon="@drawable/procedure"
+        />
+    <item android:id="@+id/RecentJobs"
+        android:title="Recent Jobs"
+        android:icon="@drawable/recentjobs"
+        />
+    <item android:id="@+id/Gallery"
+        android:title="Gallery"
+        android:icon="@drawable/gallery"
+        />
+    <item android:id="@+id/ContactUs"
+        android:title="Contact Us"
+        android:icon="@drawable/phone"
+        />
+    <item android:id="@+id/notification"
+        android:title="Notification"
+        app:actionLayout="@layout/notify" />`
+
+</menu>
